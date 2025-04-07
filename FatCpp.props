@@ -15,6 +15,8 @@
       <ErrorReporting>None</ErrorReporting>
       <EnableModules>false</EnableModules>
       <AdditionalOptions>/wd4061 /wd4062 /wd4324 /wd4514 /wd4820 /wd5045 /wd5246 %(AdditionalOptions)</AdditionalOptions>
+      <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
+      <PreprocessorDefinitions>FAT_BUILDING_WITH_MSVC=1;FAT_BUILDING_ON_WINDOWS=1;NOMINMAX;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
