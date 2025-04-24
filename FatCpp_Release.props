@@ -9,12 +9,9 @@
     <ClCompile>
       <StringPooling>true</StringPooling>
       <PreprocessorDefinitions>IN_DEBUG=false;IN_RELEASE=true;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalOptions>/Qvec-report:2 /Qpar-report:2 %(AdditionalOptions)</AdditionalOptions>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/wd4710 /wd4711 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
-    <Link>
-      <SuppressStartupBanner>false</SuppressStartupBanner>
-    </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
