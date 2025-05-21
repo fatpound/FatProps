@@ -13,10 +13,10 @@
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <ErrorReporting>None</ErrorReporting>
       <EnableModules>false</EnableModules>
-      <AdditionalOptions>/wd4061 /wd4062 /wd4324 /wd4514 /wd4820 /wd5045 /wd5246 %(AdditionalOptions)</AdditionalOptions>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
       <PreprocessorDefinitions>FAT_BUILDING_WITH_MSVC=1;FAT_BUILDING_ON_WINDOWS=1;NOMINMAX;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <DisableSpecificWarnings>4061;4062;4324;4514;4820;5045;5246</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
