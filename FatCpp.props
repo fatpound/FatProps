@@ -17,6 +17,7 @@
       <PreprocessorDefinitions>FAT_BUILDING_WITH_MSVC=1;FAT_BUILDING_ON_WINDOWS=1;NOMINMAX;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <UseStandardPreprocessor>true</UseStandardPreprocessor>
       <DisableSpecificWarnings>4061;4062;4324;4514;4820;5045;5246</DisableSpecificWarnings>
+      <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
