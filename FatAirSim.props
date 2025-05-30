@@ -3,6 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
     <AIRSIM_PATH>c:\AirSim\</AIRSIM_PATH>
+    <DisableZcCplusplus>true</DisableZcCplusplus>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup>
@@ -17,6 +18,9 @@
     <BuildMacro Include="AIRSIM_PATH">
       <Value>$(AIRSIM_PATH)</Value>
       <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="DisableZcCplusplus">
+      <Value>$(DisableZcCplusplus)</Value>
     </BuildMacro>
   </ItemGroup>
 </Project>
