@@ -8,7 +8,7 @@
   <ItemDefinitionGroup>
     <ClCompile>
       <StringPooling>true</StringPooling>
-      <PreprocessorDefinitions>IN_DEBUG=false;IN_RELEASE=true;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>IN_RELEASE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
       <AdditionalOptions>/wd4710 /wd4711 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
