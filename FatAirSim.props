@@ -2,13 +2,13 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <AIRSIM_PATH>c:\AirSim\</AIRSIM_PATH>
+    <AIRSIM_PATH>c:\Program Files\AirSim</AIRSIM_PATH>
     <DisableZcCplusplus>true</DisableZcCplusplus>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(AIRSIM_PATH)AirLib\Include;$(AIRSIM_PATH)AirLib\deps\eigen3</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(AIRSIM_PATH)\AirLib\Include;$(AIRSIM_PATH)\AirLib\deps\eigen3</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>AirLib.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>

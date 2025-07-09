@@ -6,11 +6,11 @@
   <ItemDefinitionGroup>
     <ClCompile />
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Boost\boost_1_87_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>c:\Program Files\boost_1_88_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link />
     <Link>
-      <AdditionalLibraryDirectories>C:\Boost\boost_1_87_0\lib64-msvc-14.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>c:\Program Files\boost_1_88_0\lib64-msvc-14.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
