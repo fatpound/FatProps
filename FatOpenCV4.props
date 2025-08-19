@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <OPENCV4_PATH>c:\Program Files\opencv-4.11.0</OPENCV4_PATH>
+    <OPENCV4_PATH>c:\Program Files\OpenCV\opencv-4.12</OPENCV4_PATH>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup>
