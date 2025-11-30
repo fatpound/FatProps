@@ -16,7 +16,7 @@
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
       <PreprocessorDefinitions>FATLIB_BUILDING_WITH_MSVC;NOMINMAX;STRICT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <UseStandardPreprocessor>true</UseStandardPreprocessor>
-      <DisableSpecificWarnings>4061;4062;4324;4464;4514;4820;5045;5246</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4324;4464;4514;4686;4820;5045;5246</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <LinkErrorReporting>NoErrorReport</LinkErrorReporting>
